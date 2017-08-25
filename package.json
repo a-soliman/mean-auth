@@ -1,0 +1,35 @@
+{
+  "name": "mean-auth",
+  "version": "1.0.0",
+  "description": "an auth. system using the mean stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-soliman/mean-auth.git"
+  },
+  "keywords": [
+    "MEAN",
+    "Stak"
+  ],
+  "author": "Ahmed Soliman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-soliman/mean-auth/issues"
+  },
+  "homepage": "https://github.com/a-soliman/mean-auth#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.4",
+    "install": "^0.10.1",
+    "jquery": "^3.2.1",
+    "mongoose": "^4.11.7",
+    "morgan": "^1.8.2",
+    "npm": "^5.3.0"
+  }
+}
